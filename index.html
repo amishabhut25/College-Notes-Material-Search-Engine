@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Notes & Material Search Engine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>College Notes & Material Search Engine</h1>
+      <p>Search and manage college study materials easily</p>
+    </header>
+
+    <section class="toolbar">
+      <button onclick="displayAll()">Display All</button>
+      <button onclick="addMaterial()">Add Material</button>
+      <button onclick="searchById()">Search by ID</button>
+      <button onclick="searchBySubject()">Search by Subject</button>
+      <button onclick="searchMaterial()">Search / Autocomplete</button>
+      <button onclick="sortByTitle()">Sort by Title</button>
+      <button onclick="sortBySubject()">Sort by Subject</button>
+      <button onclick="deleteMaterial()">Delete Material</button>
+      <button onclick="showHistory()">Search History</button>
+      <button onclick="showStatistics()">Statistics</button>
+    </section>
+
+    <section class="content">
+      <h2 id="outputTitle">All Materials</h2>
+      <div id="output"></div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
