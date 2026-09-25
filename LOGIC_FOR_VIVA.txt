@@ -1,0 +1,24 @@
+COLLEGE NOTES & MATERIAL SEARCH ENGINE - VIVA LOGIC
+
+1. Linked List:
+Materials are stored as nodes. Each node contains one Material and a link to the next node.
+
+2. Hashing:
+HashMap<Integer, Material> gives fast exact search using Material ID.
+Another HashMap stores Subject -> Material IDs.
+
+3. Trie:
+Trie stores titles, subjects, topics and keywords character by character.
+It is used for prefix search and autocomplete.
+
+4. Stack:
+Search history is stored in a Stack, so the latest search is shown first.
+
+5. Sorting:
+ArrayList is used temporarily and materials are sorted by title or subject.
+
+6. GUI:
+Java Swing is used to create the graphical user interface. Buttons call the same DS operations.
+
+MAIN VIVA LINE:
+"Trie is used for fast prefix-based searching and autocomplete, while Hashing is used for fast exact lookup of materials. Linked List stores the records, Stack stores search history, and Sorting organizes the results."
